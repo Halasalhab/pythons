@@ -1,4 +1,5 @@
 # Sparkles
+
 > A website where you can book cleaning services, buy cleaning products, and add or check cleaning tips provided by others.
 
 ## Team
@@ -9,6 +10,29 @@
   
 ### Installing Dependencies
 
+
+1. Backend:
+
+- Go from root directory to backend directory:
+
+```
+cd backend/
+```
+
+- Create virtualenv:
+
+```
+python -m venv env
+.\env\Scripts\activate
+pip install -r requirements.txt
+```
+
+- Run the server:
+
+```
+cd src/
+python manage.py runserver
+=======
 1. Backend: 
  - Go from root directory to backend directory:
 ```
@@ -25,3 +49,4 @@ pip install -r requirements.txt
 cd src/
 python manage.py runserver
 ```
+
